@@ -42,3 +42,26 @@ if(place_meeting(x, y + v_speed, obj_solid)){
 }
 
 y += v_speed;
+
+//Interacting with the desks/puzzles
+if(keyboard_check(ord("E"))){
+	interact_dist = 4;
+	target_solid = noone;
+	
+	if(place_meeting(x + h_input * interact_dist, y, obj_solid)){
+		target_solid = instance_place(x + h_input * interact_dist, y, obj_solid);
+	}
+	else if(place_meeting(x, y + v_input * interact_dist, obj_solid)){
+		target_solid = instance_place(x, y + v_input * interact_dist, obj_solid);
+	}
+	else{
+		target_solid = instance_nearest(x,y,obj_solid);
+		if(distance_to_object(target_solid) > interact_dist){
+			target_solid = noone;
+		}
+	}
+
+	if (target_solid != noone && !instance_exists(obj_ui)){
+		instance_create_depth(0,0,0,obj_ui);
+	}
+}

@@ -18,8 +18,10 @@
   ],
   "ResourceOrderSettings":[
     {"name":"obj_solid","order":1,"path":"objects/obj_solid/obj_solid.yy",},
+    {"name":"obj_timer","order":3,"path":"objects/obj_timer/obj_timer.yy",},
     {"name":"obj_ui","order":2,"path":"objects/obj_ui/obj_ui.yy",},
     {"name":"spr_player","order":1,"path":"sprites/spr_player/spr_player.yy",},
+    {"name":"spr_star","order":3,"path":"sprites/spr_star/spr_star.yy",},
     {"name":"Sprite3","order":2,"path":"sprites/Sprite3/Sprite3.yy",},
   ],
 }
