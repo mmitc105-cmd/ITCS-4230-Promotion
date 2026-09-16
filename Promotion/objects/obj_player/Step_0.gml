@@ -5,7 +5,12 @@ key_left = keyboard_check(vk_left) || keyboard_check(ord("A"));
 key_right = keyboard_check(vk_right) || keyboard_check(ord("D"));
 
 //Player Speed
+if(instance_exists(obj_UIParent)){
+	move_speed = 0;
+}
+else{
 move_speed = 4;
+}
 
 //Horizontal and vertical directions
 h_input = key_right - key_left;
@@ -44,7 +49,7 @@ if(place_meeting(x, y + v_speed, obj_solid)){
 y += v_speed;
 
 //Interacting with the desks/puzzles
-if(keyboard_check(ord("E"))){
+if(keyboard_check_pressed(ord("E"))){
 	interact_dist = 4;
 	target_solid = noone;
 	
@@ -61,7 +66,7 @@ if(keyboard_check(ord("E"))){
 		}
 	}
 
-	if (target_solid != noone && !instance_exists(obj_ui)){
-		instance_create_depth(0,0,0,obj_ui);
+	if (target_solid != noone && !instance_exists(obj_UIParent)){
+		instance_create_depth(0,0,0,obj_pipeMazeUI);
 	}
 }
