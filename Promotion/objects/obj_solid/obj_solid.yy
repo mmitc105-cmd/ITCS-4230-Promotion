@@ -23,7 +23,9 @@
   "physicsShape":1,
   "physicsShapePoints":[],
   "physicsStartAwake":true,
-  "properties":[],
+  "properties":[
+    {"$GMObjectProperty":"v2","%Name":"puzzle_ID","filters":[],"listItems":[],"multiselect":false,"name":"puzzle_ID","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resource":{"name":"obj_UIParent","path":"objects/obj_UIParent/obj_UIParent.yy",},"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"obj_UIParent","varType":5,},
+  ],
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
   "solid":true,

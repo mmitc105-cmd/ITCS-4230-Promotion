@@ -18,7 +18,6 @@
   ],
   "ResourceOrderSettings":[
     {"name":"obj_pipe90","order":4,"path":"objects/obj_pipe90/obj_pipe90.yy",},
-    {"name":"obj_pipeMaze","order":8,"path":"objects/obj_pipeMaze/obj_pipeMaze.yy",},
     {"name":"obj_pipeMazeUI","order":7,"path":"objects/obj_pipeMazeUI/obj_pipeMazeUI.yy",},
     {"name":"obj_pipeStraight","order":5,"path":"objects/obj_pipeStraight/obj_pipeStraight.yy",},
     {"name":"obj_pipeT","order":6,"path":"objects/obj_pipeT/obj_pipeT.yy",},
@@ -27,6 +26,7 @@
     {"name":"obj_UIParent","order":2,"path":"objects/obj_UIParent/obj_UIParent.yy",},
     {"name":"spr_pipe90","order":4,"path":"sprites/spr_pipe90/spr_pipe90.yy",},
     {"name":"spr_pipeMaze","order":7,"path":"sprites/spr_pipeMaze/spr_pipeMaze.yy",},
+    {"name":"spr_pipeMazeBG","order":8,"path":"sprites/spr_pipeMazeBG/spr_pipeMazeBG.yy",},
     {"name":"spr_pipeStraight","order":5,"path":"sprites/spr_pipeStraight/spr_pipeStraight.yy",},
     {"name":"spr_pipeT","order":6,"path":"sprites/spr_pipeT/spr_pipeT.yy",},
     {"name":"spr_player","order":1,"path":"sprites/spr_player/spr_player.yy",},

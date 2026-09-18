@@ -67,6 +67,16 @@ if(keyboard_check_pressed(ord("E"))){
 	}
 
 	if (target_solid != noone && !instance_exists(obj_UIParent)){
-		instance_create_depth(0,0,0,obj_pipeMazeUI);
+		if (variable_instance_exists(target_solid,"puzzle_ID")) {
+			
+			target_puzzle = target_solid.puzzle_ID;
+			
+			if (target_puzzle != noone){
+				instance_create_depth(0,0,0, target_puzzle);
+			}
+		}
+		
+		
+			
 	}
 }

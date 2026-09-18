@@ -16,10 +16,17 @@ for(r = 0; r < grid_height; r++){
 	}
 }
 
-draw_set_color(c_white);
+draw_set_color(c_black);
 draw_set_halign(fa_center);
-draw_text(ui_x, ui_y - 100, "PIPE MINIGAME");
-draw_text(ui_x, ui_y, "Connect the flow...");
-draw_text(ui_x, ui_y + 100, "Press 'Escape' to Exit");
+draw_text(ui_x-750, ui_y - 100, "PIPE MINIGAME");
+draw_text(ui_x-750, ui_y, "Connect the flow...");
+draw_text(ui_x-750, ui_y + 100, "Press 'Escape' or 'ESC' to Exit");
 draw_set_halign(fa_left);
 		
+	//Lock the UI when completed.
+	if (is_solved){
+		draw_set_color(c_lime);
+		draw_set_halign(fa_center);
+		draw_text(ui_x-750, ui_y + 200, "PUZZLE SOLVED - DRAIN ONLINE");
+		draw_set_halign(fa_left);
+	}

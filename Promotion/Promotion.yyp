@@ -36,7 +36,6 @@
   "name":"Promotion",
   "resources":[
     {"id":{"name":"obj_pipe90","path":"objects/obj_pipe90/obj_pipe90.yy",},},
-    {"id":{"name":"obj_pipeMaze","path":"objects/obj_pipeMaze/obj_pipeMaze.yy",},},
     {"id":{"name":"obj_pipeMazeUI","path":"objects/obj_pipeMazeUI/obj_pipeMazeUI.yy",},},
     {"id":{"name":"obj_pipeStraight","path":"objects/obj_pipeStraight/obj_pipeStraight.yy",},},
     {"id":{"name":"obj_pipeT","path":"objects/obj_pipeT/obj_pipeT.yy",},},
@@ -49,6 +48,7 @@
     {"id":{"name":"spr_background","path":"sprites/spr_background/spr_background.yy",},},
     {"id":{"name":"spr_pipe90","path":"sprites/spr_pipe90/spr_pipe90.yy",},},
     {"id":{"name":"spr_pipeMaze","path":"sprites/spr_pipeMaze/spr_pipeMaze.yy",},},
+    {"id":{"name":"spr_pipeMazeBG","path":"sprites/spr_pipeMazeBG/spr_pipeMazeBG.yy",},},
     {"id":{"name":"spr_pipeStraight","path":"sprites/spr_pipeStraight/spr_pipeStraight.yy",},},
     {"id":{"name":"spr_pipeT","path":"sprites/spr_pipeT/spr_pipeT.yy",},},
     {"id":{"name":"spr_player","path":"sprites/spr_player/spr_player.yy",},},

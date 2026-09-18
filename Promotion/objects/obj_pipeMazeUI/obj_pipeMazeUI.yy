@@ -34,7 +34,10 @@
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
   "solid":false,
-  "spriteId":null,
+  "spriteId":{
+    "name":"spr_pipeMazeBG",
+    "path":"sprites/spr_pipeMazeBG/spr_pipeMazeBG.yy",
+  },
   "spriteMaskId":null,
   "visible":true,
 }
