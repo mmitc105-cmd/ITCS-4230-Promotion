@@ -35,6 +35,7 @@
   },
   "name":"Promotion",
   "resources":[
+    {"id":{"name":"obj_cubeMazeUI","path":"objects/obj_cubeMazeUI/obj_cubeMazeUI.yy",},},
     {"id":{"name":"obj_pipe90","path":"objects/obj_pipe90/obj_pipe90.yy",},},
     {"id":{"name":"obj_pipeMazeUI","path":"objects/obj_pipeMazeUI/obj_pipeMazeUI.yy",},},
     {"id":{"name":"obj_pipeStraight","path":"objects/obj_pipeStraight/obj_pipeStraight.yy",},},

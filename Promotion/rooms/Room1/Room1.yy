@@ -8,7 +8,7 @@
   "instanceCreationOrder":[
     {"name":"inst_7BA50372","path":"rooms/Room1/Room1.yy",},
     {"name":"pipe_maze_desk","path":"rooms/Room1/Room1.yy",},
-    {"name":"inst_6EB15421","path":"rooms/Room1/Room1.yy",},
+    {"name":"cube_maze","path":"rooms/Room1/Room1.yy",},
     {"name":"inst_45763E72","path":"rooms/Room1/Room1.yy",},
     {"name":"inst_2479B62","path":"rooms/Room1/Room1.yy",},
   ],
@@ -19,7 +19,9 @@
         {"$GMRInstance":"v4","%Name":"pipe_maze_desk","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"pipe_maze_desk","objectId":{"name":"obj_solid","path":"objects/obj_solid/obj_solid.yy",},"properties":[
             {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_solid","path":"objects/obj_solid/obj_solid.yy",},"propertyId":{"name":"puzzle_ID","path":"objects/obj_solid/obj_solid.yy",},"resource":{"name":"obj_pipeMazeUI","path":"objects/obj_pipeMazeUI/obj_pipeMazeUI.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"obj_pipeMazeUI",},
           ],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":1472.0,"y":768.0,},
-        {"$GMRInstance":"v4","%Name":"inst_6EB15421","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_6EB15421","objectId":{"name":"obj_solid","path":"objects/obj_solid/obj_solid.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":288.0,"y":768.0,},
+        {"$GMRInstance":"v4","%Name":"cube_maze","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"cube_maze","objectId":{"name":"obj_solid","path":"objects/obj_solid/obj_solid.yy",},"properties":[
+            {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_solid","path":"objects/obj_solid/obj_solid.yy",},"propertyId":{"name":"puzzle_ID","path":"objects/obj_solid/obj_solid.yy",},"resource":{"name":"obj_cubeMazeUI","path":"objects/obj_cubeMazeUI/obj_cubeMazeUI.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"obj_cubeMazeUI",},
+          ],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":288.0,"y":768.0,},
         {"$GMRInstance":"v4","%Name":"inst_45763E72","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_45763E72","objectId":{"name":"obj_solid","path":"objects/obj_solid/obj_solid.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":1568.0,"y":192.0,},
         {"$GMRInstance":"v4","%Name":"inst_2479B62","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_2479B62","objectId":{"name":"obj_timer","path":"objects/obj_timer/obj_timer.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":1472.0,"y":-96.0,},
       ],"layers":[],"name":"Instances","properties":[],"resourceType":"GMRInstanceLayer","resourceVersion":"2.0","userdefinedDepth":false,"visible":true,},
