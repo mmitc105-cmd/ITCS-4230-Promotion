@@ -14,6 +14,10 @@ move_speed = 4;
 
 //Horizontal and vertical directions
 h_input = key_right - key_left;
+if (h_input != 0) {
+	image_xscale = h_input;	
+}
+
 v_input = key_down - key_up;
 
 h_speed = h_input * move_speed;
