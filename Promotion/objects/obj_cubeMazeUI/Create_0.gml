@@ -25,4 +25,4 @@ goal_x = ui_x + 200;
 goal_y = ui_y;
 goal_size = 32;
 
-
+alarm[0] = 1;

@@ -1,6 +1,8 @@
 // Inherit the parent event
 event_inherited();
 
+is_solved = false;
+
 //Size Variables
 grid_width = 6;
 grid_height = 6;
@@ -23,4 +25,4 @@ puzzle_grid = [
 	
 	];
 	
-is_solved = false;
+alarm[0] = 1;

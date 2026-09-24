@@ -39,6 +39,10 @@ if (!is_solved){
 	//Win con
 	if (cube_x >= track_end_x){
 		is_solved = true;
+		
+		// Update the global state with our dynamically inherited puzzle ID
+		global.puzzle_states[$ my_puzzle_ID] = true;
+		
 		show_debug_message("-------------------CLEARED-----------------");
 	}
 }

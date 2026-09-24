@@ -14,7 +14,7 @@ move_speed = 4;
 
 //Horizontal and vertical directions
 h_input = key_right - key_left;
-if (h_input != 0) {
+if (h_input != 0 && !instance_exists(obj_UIParent)) {
 	image_xscale = h_input;	
 }
 
@@ -71,12 +71,15 @@ if(keyboard_check_pressed(ord("E"))){
 	}
 
 	if (target_solid != noone && !instance_exists(obj_UIParent)){
-		if (variable_instance_exists(target_solid,"puzzle_ID")) {
+		if (variable_instance_exists(target_solid,"puzzle_ID") && variable_instance_exists(target_solid, "save_key")) {
 			
 			target_puzzle = target_solid.puzzle_ID;
+			target_save_string = target_solid.save_key;
 			
 			if (target_puzzle != noone){
-				instance_create_depth(0,0,0, target_puzzle);
+				ui_instance = instance_create_depth(0,0,0, target_puzzle);
+				
+				ui_instance.my_puzzle_ID = target_save_string;
 			}
 		}
 		

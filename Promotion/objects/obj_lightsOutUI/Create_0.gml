@@ -28,3 +28,5 @@ lights_grid[0][0] = true; // Top left
 lights_grid[0][2] = true; // Top right
 lights_grid[2][0] = true; // Bottom left
 lights_grid[2][2] = true; // Bottom right
+
+alarm[0] = 1;

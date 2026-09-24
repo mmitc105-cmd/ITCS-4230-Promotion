@@ -18,6 +18,8 @@
   ],
   "ResourceOrderSettings":[
     {"name":"obj_cubeMazeUI","order":8,"path":"objects/obj_cubeMazeUI/obj_cubeMazeUI.yy",},
+    {"name":"obj_gameController","order":10,"path":"objects/obj_gameController/obj_gameController.yy",},
+    {"name":"obj_HUD","order":11,"path":"objects/obj_HUD/obj_HUD.yy",},
     {"name":"obj_lightsOutUI","order":9,"path":"objects/obj_lightsOutUI/obj_lightsOutUI.yy",},
     {"name":"obj_pipe90","order":4,"path":"objects/obj_pipe90/obj_pipe90.yy",},
     {"name":"obj_pipeMazeUI","order":7,"path":"objects/obj_pipeMazeUI/obj_pipeMazeUI.yy",},

@@ -43,6 +43,10 @@ if (!is_solved && mouse_check_button_pressed(mb_left)){
 		
 			if (all_off) {
 				is_solved = true;
+				
+				// Update our central state tracker with our inherited minigame key
+				global.puzzle_states[$ my_puzzle_ID] = true; 
+				
 				show_debug_message("-----------LIGHTS OUT----------------")
 			}
 		}
