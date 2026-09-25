@@ -12,7 +12,7 @@ Players must explore the factory, solve puzzles, learn from their mistakes, and 
 **Perspective:** Top-Down
 **Art Style:** Pixel Art
 **Setting:** Factory
-**Game Length:** Approximately 2 minutes per time loop
+**Game Length:** Approximately 1 minute per time loop
 
 The main idea behind *Promotion* is that **failure is part of the solution**. Some puzzles may initially take too long to complete, but once players understand their solutions, they can complete them much faster during the next loop.
 
@@ -32,7 +32,7 @@ Hopefully, he'll have some good — and long — dreams.
 
 ## ⏰ Gameplay
 
-Players have approximately **two minutes** to complete Don's workday.
+Players have approximately **1 minute** to complete Don's workday.
 
 Throughout the factory are several puzzles and mini-games that Don must complete. The puzzles are intentionally difficult or time-consuming when first encountered. As players experiment, fail, and restart the day, they learn the solutions and become increasingly efficient.
 
@@ -54,7 +54,7 @@ Some interactable objects may even appear important while actually wasting valua
 
 ### Time Loop
 
-Each workday lasts approximately **two minutes**. If Don fails to complete his work before the end of the day, the loop resets.
+Each workday lasts approximately **1 minute**. If Don fails to complete his work before the end of the day, the loop resets.
 
 ### Puzzle Solving
 
