@@ -6,11 +6,9 @@ There is only one problem: Don has just one minute to complete his workday.
 
 Explore the factory, complete three required puzzles, and learn from each failed attempt. If time runs out, Don's nightmare begins again—but the knowledge you gained carries into your next attempt.
 
-==================================================
-GAME INSTRUCTIONS
-==================================================
+## Game Instructions
 
-OBJECTIVE
+### OBJECTIVE
 
 Complete all three required factory puzzles before the workday timer reaches zero.
 
@@ -18,27 +16,24 @@ Successfully completing all three tasks earns Don his promotion and the $1,000 b
 
 If time runs out before all three tasks are completed, the day resets. Use what you learned during previous attempts to complete the next loop faster.
 
-CONTROLS
+### CONTROLS
 
-Movement:
-WASD or Arrow Keys
-
-Interact:
-E
-
-Puzzle Controls:
-Arrow Keys or Mouse Click
+| Action | Control |
+| --- | --- |
+| Movement | WASD or Arrow Keys |
+| Interact | E |
+| Puzzle Controls | Mouse Click or Arrow Keys |
 
 
-HOW TO PLAY
+### HOW TO PLAY
 
 Explore the factory to find Don's three required tasks. Each task contains a different puzzle that must be completed before the workday ends.
 
 The three required puzzles are:
 
-- Pipe Maze
-- Lights Out
-- Electric Walls
+- **Pipe Maze**
+- **Lights Out**
+- **Electric Walls**
 
 Interact with a task to begin its puzzle.
 
@@ -47,23 +42,22 @@ You are not expected to complete the entire game perfectly on your first attempt
 Complete all three required puzzles before the timer reaches zero to win.
 
 
-WIN CONDITION
+### WIN CONDITION
 
-Complete the Pipe Maze, Lights Out, and Electric Walls puzzles, and make it to the boss' door before the workday timer expires. Don earns his promotion and receives his $1,000 bonus.
+Complete the **Pipe Maze**, **Lights Out**, and **Electric Walls** puzzles before the workday timer expires. Don earns his promotion and receives his $1,000 bonus.
 
 
-LOSE CONDITION
+### LOSE CONDITION
 
 If the timer reaches zero before all three required puzzles are completed, Don fails to earn his promotion and the day ends.
 
 Don then wakes up from his nightmare and is able to retry the workday. While the day resets, the player can use the knowledge gained during previous attempts to improve their next run.
 
 
-==================================================
-PUZZLE INSTRUCTIONS
-==================================================
+## Puzzle Instructions
 
-PIPE MAZE
+
+### Pipe Maze
 
 The Pipe Maze consists of a 6x6 grid containing three types of pipes:
 
@@ -76,7 +70,7 @@ Rotate the pipes to create a continuous path from the entrance at the top of the
 Multiple paths may appear possible, so finding the correct route quickly is important.
 
 
-LIGHTS OUT
+### LIGHTS OUT
 
 Lights Out consists of a 3x3 grid that begins with all of its lights turned on.
 
@@ -87,7 +81,7 @@ Interacting with the lights changes their state [AND ADJACENT LIGHTS? ADD/CORREC
 The puzzle can be solved in as few as five moves. Learning the solution will allow you to complete it much faster on later attempts.
 
 
-ELECTRIC WALLS
+### ELECTRIC WALLS
 
 Navigate through the narrow path without touching the electric walls.
 
@@ -96,15 +90,13 @@ If you touch a wall, the puzzle resets and you must attempt it again.
 Move carefully, but remember that the workday timer continues to count down while completing the puzzle.
 
 
-==================================================
-GAME WALKTHROUGH
-==================================================
+## Game Walkthrough
 
 WARNING: THIS SECTION CONTAINS SPOILERS.
 
 Promotion is designed around trial and error. The fastest way to complete the game is to learn the solutions to each puzzle and determine an efficient route through the factory.
 
-STEP 1: [FIRST PUZZLE/LOCATION]
+### STEP 1: [FIRST PUZZLE/LOCATION]
 
 [Explain where to go.]
 
@@ -112,7 +104,7 @@ Solution:
 [ADD EXACT SOLUTION]
 
 
-STEP 2: [SECOND PUZZLE/LOCATION]
+### STEP 2: [SECOND PUZZLE/LOCATION]
 
 [Explain where to go.]
 
@@ -120,7 +112,7 @@ Solution:
 [ADD EXACT SOLUTION]
 
 
-STEP 3: [THIRD PUZZLE/LOCATION]
+### STEP 3: [THIRD PUZZLE/LOCATION]
 
 [Explain where to go.]
 
@@ -133,16 +125,12 @@ After completing all three required puzzles, the player needs to get to the boss
 Complete these steps before the workday timer expires to earn Don's promotion.
 
 
-==================================================
-CHEAT CODES
-==================================================
+## Cheat Codes
 
 ?????
 
 
-==================================================
-STORY
-==================================================
+## Story
 
 Don, a factory worker, desperately wants to purchase his dream motorcycle. Unfortunately, he doesn't have enough money.
 
@@ -157,9 +145,7 @@ When Don fails, he wakes up and realizes the disastrous workday was a nightmare.
 Each loop gives the player another opportunity to learn the factory, master its puzzles, and help Don finally complete his seemingly impossible workday.
 
 
-==================================================
-LICENSING INFORMATION
-==================================================
+## Licensing Information
 
 Promotion © 2026 Oozma Kappa.
 
@@ -174,9 +160,7 @@ Source:
 License:
 
 
-==================================================
-DEVELOPMENT TEAM
-==================================================
+## Development Team
 
 Oozma Kappa
 
@@ -186,9 +170,7 @@ Aiden Hermanowicz — Artist
 Tristan Ford — Programmer
 
 
-==================================================
-GAME INFORMATION
-==================================================
+## Game Information
 
 Genre: Puzzle
 Platform: PC
