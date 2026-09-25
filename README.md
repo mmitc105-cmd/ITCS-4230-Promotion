@@ -1,6 +1,6 @@
-# Promotion
+# Promotion Pending
 
-Promotion is a top-down pixel-art puzzle game where players take on the role of Don, a factory worker determined to earn a promotion and the $1,000 bonus he needs to purchase his dream motorcycle.
+Promotion Pending is a top-down pixel-art puzzle game where players take on the role of Don, a factory worker determined to earn a promotion and the $1,000 bonus he needs to purchase his dream motorcycle.
 
 There is only one problem: Don has just one minute to complete his workday.
 
@@ -94,7 +94,7 @@ Move carefully, but remember that the workday timer continues to count down whil
 
 WARNING: THIS SECTION CONTAINS SPOILERS.
 
-Promotion is designed around trial and error. The fastest way to complete the game is to learn the solutions to each puzzle and determine an efficient route through the factory.
+Promotion Pending is designed around trial and error. The fastest way to complete the game is to learn the solutions to each puzzle and determine an efficient route through the factory.
 
 ### STEP 1: [FIRST PUZZLE/LOCATION]
 
@@ -147,7 +147,7 @@ Each loop gives the player another opportunity to learn the factory, master its 
 
 ## Licensing Information
 
-Promotion © 2026 Oozma Kappa.
+Promotion Pending © 2026 Oozma Kappa.
 
 All original artwork and concept art was created by Aiden Hermanowicz.
 
