@@ -1,173 +1,201 @@
 # Promotion
 
-**Promotion** is a top-down pixel-art puzzle game built around a two-minute time loop. Players take on the role of Don, a factory foreman determined to earn a promotion before the end of his shift.
+Promotion is a top-down pixel-art puzzle game where players take on the role of Don, a factory worker determined to earn a promotion and the $1,000 bonus he needs to purchase his dream motorcycle.
 
-The catch? There isn't enough time to figure everything out on the first try.
+There is only one problem: Don has just one minute to complete his workday.
 
-Players must explore the factory, solve puzzles, learn from their mistakes, and use knowledge from previous loops to complete every task before time runs out.
+Explore the factory, complete three required puzzles, and learn from each failed attempt. If time runs out, Don's nightmare begins again—but the knowledge you gained carries into your next attempt.
 
-## 🎮 Game Concept
+==================================================
+GAME INSTRUCTIONS
+==================================================
 
-**Genre:** Puzzle / Time Loop
-**Perspective:** Top-Down
-**Art Style:** Pixel Art
-**Setting:** Factory
-**Game Length:** Approximately 1 minute per time loop
+OBJECTIVE
 
-The main idea behind *Promotion* is that **failure is part of the solution**. Some puzzles may initially take too long to complete, but once players understand their solutions, they can complete them much faster during the next loop.
+Complete all three required factory puzzles before the workday timer reaches zero.
 
-Each failed attempt gives the player more knowledge about how to efficiently navigate the factory and complete their work.
+Successfully completing all three tasks earns Don his promotion and the $1,000 bonus he needs to purchase his dream motorcycle.
 
-## 📖 Story
+If time runs out before all three tasks are completed, the day resets. Use what you learned during previous attempts to complete the next loop faster.
 
-**October 23, 20XX.**
+CONTROLS
 
-Don, a factory foreman, sees an advertisement for the brand-new **Jolm Skirt Bike**, currently on sale for exactly **$1,000** until tomorrow night.
+Movement:
+WASD or Arrow Keys
 
-There is only one problem: Don doesn't have $1,000.
+Interact:
+E
 
-Luckily, Don knows that earning a promotion at work comes with a **$1,000 bonus**. Determined to get his hands on the bike, Don goes to bed ready to put in some serious work at the factory the next day.
+Puzzle Controls:
+Arrow Keys or Mouse Click
 
-Hopefully, he'll have some good — and long — dreams.
 
-## ⏰ Gameplay
+HOW TO PLAY
 
-Players have approximately **1 minute** to complete Don's workday.
+Explore the factory to find Don's three required tasks. Each task contains a different puzzle that must be completed before the workday ends.
 
-Throughout the factory are several puzzles and mini-games that Don must complete. The puzzles are intentionally difficult or time-consuming when first encountered. As players experiment, fail, and restart the day, they learn the solutions and become increasingly efficient.
+The three required puzzles are:
 
-If time runs out before every required task is completed, the day resets and the player must try again.
+- Pipe Maze
+- Lights Out
+- Electric Walls
 
-The player will need to:
+Interact with a task to begin its puzzle.
 
-* Explore the factory and locate important tasks.
-* Complete approximately 2–4 puzzles or mini-games.
-* Learn puzzle solutions through experimentation.
-* Remember solutions between time loops.
-* Determine which tasks are actually necessary.
-* Complete every required task before the timer reaches zero.
-* Earn Don's promotion.
+You are not expected to complete the entire game perfectly on your first attempt. Learn how each puzzle works, remember its solution, and use that knowledge to complete it faster during your next attempt.
 
-Some interactable objects may even appear important while actually wasting valuable time.
+Complete all three required puzzles before the timer reaches zero to win.
 
-## 🧩 Core Mechanics
 
-### Time Loop
+WIN CONDITION
 
-Each workday lasts approximately **1 minute**. If Don fails to complete his work before the end of the day, the loop resets.
+Complete the Pipe Maze, Lights Out, and Electric Walls puzzles, and make it to the boss' door before the workday timer expires. Don earns his promotion and receives his $1,000 bonus.
 
-### Puzzle Solving
 
-Players encounter mini-games and puzzles throughout the factory. While they may initially take significant time to understand, knowing their solutions makes them much faster during future attempts.
+LOSE CONDITION
 
-### Player Knowledge
+If the timer reaches zero before all three required puzzles are completed, Don fails to earn his promotion and the day ends.
 
-Don may reset, but the **player's knowledge does not**. Remembering puzzle solutions, locations, and efficient routes is the key to winning.
+Don then wakes up from his nightmare and is able to retry the workday. While the day resets, the player can use the knowledge gained during previous attempts to improve their next run.
 
-### Countdown Timer
 
-A visible clock tracks how much time remains in the workday, creating pressure as players decide what to prioritize.
+==================================================
+PUZZLE INSTRUCTIONS
+==================================================
 
-### Fake Tasks
+PIPE MAZE
 
-Some optional or misleading interactables may waste the player's limited time, encouraging players to learn which activities actually matter.
+The Pipe Maze consists of a 6x6 grid containing three types of pipes:
 
-## 🏆 Win & Lose Conditions
+- 90-degree pipes
+- T-shaped pipes
+- Straight pipes
 
-**WIN:** Complete all required puzzles before the timer expires. Don earns his promotion — and his $1,000 bonus.
+Rotate the pipes to create a continuous path from the entrance at the top of the upper-left square to the exit at the bottom of the lower-right square.
 
-**LOSE:** Allow the two-minute timer to expire without completing every required task. Don gets fired, and the day resets.
+Multiple paths may appear possible, so finding the correct route quickly is important.
 
-## 🎯 Design Goals
 
-*Promotion* is designed around the idea that **making mistakes is an important part of learning**.
+LIGHTS OUT
 
-The game encourages players to become comfortable with failure by turning each unsuccessful attempt into useful information. Instead of expecting players to complete everything perfectly on their first attempt, the time-loop mechanic rewards experimentation, memory, problem-solving, and increasingly efficient play.
+Lights Out consists of a 3x3 grid that begins with all of its lights turned on.
 
-## 🎨 Art & UI
+Your goal is to turn off every light on the grid.
 
-The game uses a **top-down pixel-art style** inspired by classic 2D games.
+Interacting with the lights changes their state [AND ADJACENT LIGHTS? ADD/CORRECT THIS BASED ON FINAL GAME].
 
-Planned visual assets include:
+The puzzle can be solved in as few as five moves. Learning the solution will allow you to complete it much faster on later attempts.
 
-* Factory backgrounds and environments
-* Character sprites
-* Interactive objects
-* Puzzle-specific UI
-* Countdown timer
-* Main menu
-* Settings menu
-* Intro comic
-* Puzzle screens
-* Win/lose screens
 
-The settings menu may include options such as volume and mouse sensitivity.
+ELECTRIC WALLS
 
-## 🔊 Sound
+Navigate through the narrow path without touching the electric walls.
 
-Planned audio includes:
+If you touch a wall, the puzzle resets and you must attempt it again.
 
-* Background music
-* Factory ambience
-* Steam whistle
-* Countdown/timer sounds
-* Puzzle completion sounds
-* Incorrect puzzle sounds
-* Interactive object sound effects
-* End-of-day/time-expired sound effects
+Move carefully, but remember that the workday timer continues to count down while completing the puzzle.
 
-## 👷 Characters
 
-**Don — The Factory Foreman**
-The player character. Don is determined to work hard enough to earn a promotion and the $1,000 bonus he needs to buy the Jolm Skirt Bike.
+==================================================
+GAME WALKTHROUGH
+==================================================
 
-**The Boss**
-Don's mysterious employer. The Boss is never directly seen but ultimately determines whether Don earns his promotion.
+WARNING: THIS SECTION CONTAINS SPOILERS.
 
-## 👥 Development Team — Oozma Kappa
+Promotion is designed around trial and error. The fastest way to complete the game is to learn the solutions to each puzzle and determine an efficient route through the factory.
 
-| Team Member           | Role       |
-| --------------------- | ---------- |
-| **Maddy Mitchell**    | Producer   |
-| **Johnny Santos**     | Designer   |
-| **Aiden Hermanowicz** | Artist     |
-| **Tristan Ford**      | Programmer |
+STEP 1: [FIRST PUZZLE/LOCATION]
 
-## 💡 Inspiration
+[Explain where to go.]
 
-The game draws inspiration from **time-loop games** and short games that require players to improve through repeated attempts.
+Solution:
+[ADD EXACT SOLUTION]
 
-Primary inspirations include:
 
-* itch.io's collection of time-loop games
-* *Clocked In*, a 60-second platformer
+STEP 2: [SECOND PUZZLE/LOCATION]
 
-These games helped inspire *Promotion's* combination of limited time, repetition, player knowledge, and increasingly efficient gameplay.
+[Explain where to go.]
 
-## 🛠️ Planned Assets
+Solution:
+[ADD EXACT SOLUTION]
 
-The project will require:
 
-* Factory environments/backgrounds
-* Don character sprites
-* Interactive object sprites
-* Puzzle assets
-* Puzzle UI
-* Countdown clock
-* Main menu UI
-* Settings UI
-* Intro comic
-* End-game screens
-* Background music
-* Factory sound effects
-* Puzzle sound effects
+STEP 3: [THIRD PUZZLE/LOCATION]
 
-## 🚧 Development Status
+[Explain where to go.]
 
-**Promotion is currently in development.**
+Solution:
+[ADD EXACT SOLUTION]
 
-Game mechanics, puzzles, artwork, UI, sound, and other features may change as the project is designed, prototyped, and playtested.
 
----
+After completing all three required puzzles, the player needs to get to the boss' office door.
 
-**Oozma Kappa — 2026**
+Complete these steps before the workday timer expires to earn Don's promotion.
+
+
+==================================================
+CHEAT CODES
+==================================================
+
+?????
+
+
+==================================================
+STORY
+==================================================
+
+Don, a factory worker, desperately wants to purchase his dream motorcycle. Unfortunately, he doesn't have enough money.
+
+A promotion at work would give Don the $1,000 bonus he needs to finally buy it.
+
+During his workday, Don must complete three factory tasks before the steam whistle signals the end of his shift. If he fails, he faces the possibility of being fired.
+
+But the workday isn't exactly what it seems.
+
+When Don fails, he wakes up and realizes the disastrous workday was a nightmare. When he returns to sleep, the nightmare begins again.
+
+Each loop gives the player another opportunity to learn the factory, master its puzzles, and help Don finally complete his seemingly impossible workday.
+
+
+==================================================
+LICENSING INFORMATION
+==================================================
+
+Promotion © 2026 Oozma Kappa.
+
+All original artwork and concept art was created by Aiden Hermanowicz.
+
+
+For any music, sound effects, fonts, sprites, code, or other assets not created by the development team, include:
+
+Asset:
+Creator:
+Source:
+License:
+
+
+==================================================
+DEVELOPMENT TEAM
+==================================================
+
+Oozma Kappa
+
+Maddy Mitchell — Producer
+Johnny Santos — Designer
+Aiden Hermanowicz — Artist
+Tristan Ford — Programmer
+
+
+==================================================
+GAME INFORMATION
+==================================================
+
+Genre: Puzzle
+Platform: PC
+Number of Players: 1
+Perspective: Top-Down
+Art Style: Pixel Art
+Setting: Factory
+
+
+Oozma Kappa — 2026
