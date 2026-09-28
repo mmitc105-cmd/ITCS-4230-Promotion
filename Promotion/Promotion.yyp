@@ -57,6 +57,7 @@
     {"id":{"name":"spr_pipeT","path":"sprites/spr_pipeT/spr_pipeT.yy",},},
     {"id":{"name":"spr_player","path":"sprites/spr_player/spr_player.yy",},},
     {"id":{"name":"spr_star","path":"sprites/spr_star/spr_star.yy",},},
+    {"id":{"name":"spr_timer","path":"sprites/spr_timer/spr_timer.yy",},},
     {"id":{"name":"Sprite3","path":"sprites/Sprite3/Sprite3.yy",},},
   ],
   "resourceType":"GMProject",

@@ -19,7 +19,7 @@ if (variable_global_exists("puzzle_states")) {
 	//Maze Game
 	maze_status = " [ ] Box Maze";
 	if (global.puzzle_states[$ "maze_game"] == true) {
-		maze_status = " [X] Box maze - COMPLETE";
+		maze_status = " [X] Box Maze - COMPLETE";
 	}
 	draw_text(20, 80, maze_status);
 	

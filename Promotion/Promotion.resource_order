@@ -35,6 +35,7 @@
     {"name":"spr_pipeT","order":6,"path":"sprites/spr_pipeT/spr_pipeT.yy",},
     {"name":"spr_player","order":1,"path":"sprites/spr_player/spr_player.yy",},
     {"name":"spr_star","order":3,"path":"sprites/spr_star/spr_star.yy",},
+    {"name":"spr_timer","order":9,"path":"sprites/spr_timer/spr_timer.yy",},
     {"name":"Sprite3","order":2,"path":"sprites/Sprite3/Sprite3.yy",},
   ],
 }
