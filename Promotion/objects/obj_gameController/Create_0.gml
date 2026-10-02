@@ -1,3 +1,5 @@
+persistent = true;
+
 global.puzzle_states = {
 	
 	pipe_game : noone,
@@ -5,3 +7,10 @@ global.puzzle_states = {
 	light_game : false
 	
 };
+
+max_time = 60;
+current_time_remaining = max_time;
+
+time_per_second = game_get_speed(gamespeed_fps);
+
+timer_active = false;
