@@ -22,6 +22,11 @@ v_input = key_down - key_up;
 
 h_speed = h_input * move_speed;
 v_speed = v_input * move_speed;
+if (h_speed == 0 && v_speed == 0){
+	sprite_index = spr_player_idle16;
+} else {
+	sprite_index = spr_player;
+}
 
 //Clamping the player
 half_width = sprite_width /2;

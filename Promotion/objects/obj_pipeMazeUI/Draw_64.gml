@@ -4,8 +4,10 @@ event_inherited();
 ui_x = display_get_gui_width()/2;
 ui_y = display_get_gui_height()/2;
 
-draw_set_color(c_ltgray);
-draw_rectangle(ui_x-1000, ui_y-800, ui_x + 500, ui_y + 500, false);
+//draw_set_color(c_ltgray);
+//draw_rectangle(ui_x-1000, ui_y-800, ui_x + 500, ui_y + 500, false);
+
+draw_sprite_stretched(spr_pipeMazeBG, 0, ui_x-1000, ui_y-550, ui_x+500, ui_y+500);
 
 for(r = 0; r < grid_height; r++){
 	for(c = 0; c <grid_width; c++){

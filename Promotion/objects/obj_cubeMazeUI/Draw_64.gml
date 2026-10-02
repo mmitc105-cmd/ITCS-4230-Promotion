@@ -2,8 +2,10 @@
 //event_inherited();
 
 //Background
-draw_set_color(c_black);
-draw_rectangle(track_start_x - 20, ui_y - 120, track_end_x + 30, ui_y + 120, false);
+//draw_set_color(c_black);
+//draw_rectangle(track_start_x - 750, ui_y - 650, track_end_x + 750, ui_y + 650, false);
+
+draw_sprite_stretched(spr_cubeMazeBG, 0, track_start_x -750, ui_y-650, track_end_x +750, ui_y + 650);
 
 //Tunnel
 draw_set_color(c_white);

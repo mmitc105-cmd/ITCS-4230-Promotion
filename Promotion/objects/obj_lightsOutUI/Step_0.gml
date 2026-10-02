@@ -37,6 +37,7 @@ if (!is_solved && mouse_check_button_pressed(mb_left)){
 				for (c = 0; c < grid_size; c++){
 					if (lights_grid[r][c] == true) {
 						all_off = false;
+						//TODO: Add flickering sound
 					}
 				}
 			}

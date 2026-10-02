@@ -9,8 +9,8 @@ grid_height = 6;
 cell_size = 128;
 
 //Placement of UI
-ui_x = display_get_gui_width() / 2;
-ui_y = 300;
+ui_x = (display_get_gui_width() / 2)-108;
+ui_y = 325;
 start_x = ui_x - ((grid_width*cell_size)/2);
 start_y = ui_y - 200;
 

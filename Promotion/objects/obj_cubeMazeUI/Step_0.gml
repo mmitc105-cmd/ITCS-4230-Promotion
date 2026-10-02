@@ -34,6 +34,7 @@ if (!is_solved){
 		cube_x = track_start_x + 10;
 		cube_y = ui_y;
 		show_debug_message("-----------------BUZZ COLLISION--------------");
+		//TODO: Add buzzer noise
 	}
 	
 	//Win con
