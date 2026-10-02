@@ -4,7 +4,7 @@ Promotion Pending is a top-down pixel-art puzzle game where players take on the 
 
 There is only one problem: Don has just one minute to complete his workday.
 
-Explore the factory, complete three required puzzles, and learn from each failed attempt. If time runs out, Don's nightmare begins again—but the knowledge you gained carries into your next attempt.
+Explore the factory, complete three required puzzles, and learn from each failed attempt. If time runs out, Don's nightmare begins again, but the knowledge you gained carries into your next attempt.
 
 ## Game Instructions
 
@@ -29,7 +29,7 @@ If time runs out before all three tasks are completed, the day resets. Use what 
 
 Explore the factory to find Don's three required tasks. Each task contains a different puzzle that must be completed before the workday ends.
 
-The three required puzzles are:
+The three puzzles are:
 
 - **Pipe Maze**
 - **Lights Out**
@@ -39,7 +39,7 @@ Interact with a task to begin its puzzle.
 
 You are not expected to complete the entire game perfectly on your first attempt. Learn how each puzzle works, remember its solution, and use that knowledge to complete it faster during your next attempt.
 
-Complete all three required puzzles before the timer reaches zero to win.
+Complete all three puzzles before the timer reaches zero to win.
 
 
 ### WIN CONDITION
@@ -76,7 +76,7 @@ Lights Out consists of a 3x3 grid that begins with all of its lights turned on.
 
 Your goal is to turn off every light on the grid.
 
-Interacting with the lights changes their state [AND ADJACENT LIGHTS? ADD/CORRECT THIS BASED ON FINAL GAME].
+Interacting with the lights changes their state and the adjacent lights.
 
 The puzzle can be solved in as few as five moves. Learning the solution will allow you to complete it much faster on later attempts.
 
@@ -94,31 +94,29 @@ Move carefully, but remember that the workday timer continues to count down whil
 
 WARNING: THIS SECTION CONTAINS SPOILERS.
 
-Promotion Pending is designed around trial and error. The fastest way to complete the game is to learn the solutions to each puzzle and determine an efficient route through the factory.
+Promotion Pending is designed around trial and error. The fastest way to complete the game is to learn the solutions to each puzzle and determine an efficient route through the factory. The puzzles can be completed in any order.
 
-### STEP 1: [FIRST PUZZLE/LOCATION]
+### STEP 1: ELECTRIC WALLS
 
-[Explain where to go.]
-
-Solution:
-[ADD EXACT SOLUTION]
-
-
-### STEP 2: [SECOND PUZZLE/LOCATION]
-
-[Explain where to go.]
+Interact with the desk on the bottom left side of the factory. The player is stabilizing the factory core, but if they touch the core to any of the walls they will get zapped and have to start over. The player uses the arrow keys to move the core from the left side of the screen to the right.
 
 Solution:
-[ADD EXACT SOLUTION]
+As long as the player does not move up or down at all, they can just hold down the right arrow key to stabilize the core. 
 
 
-### STEP 3: [THIRD PUZZLE/LOCATION]
+### STEP 2: LIGHTS OUT
 
-[Explain where to go.]
+Interact with the desk in the center of the factory. The player is needs to override the circuit by shutting off all terminals. The player will use their mouse to click on the boxes in the 3x3 grid attempting to turn off all the lights, but clicking on a light will also affect the state of the adjacent lights.
 
 Solution:
-[ADD EXACT SOLUTION]
+This puzzle can be solved in 5 steps. The player should click the 4 corner lights, and then the center light. This should leave all lights off, overriding the circuits.
 
+### STEP 3: PIPE MAZE
+
+Interact with the desk in the bottom right side of the factory. The player needs to release the water from the core reactor's cooling system by connecting the pipes from the top left corner to the bottom right corner.
+
+Solution:
+The player only needs to rotate 4 pipes to win. The first is the 1st row, 2nd column: rotate 3 times. The second is the 1st row, 4th column: rotate 1 time. The third is the 2nd row, 4th column: rotate 2 times. The last is the 5th row, 5th column: rotate 2 times.
 
 After completing all three required puzzles, the player needs to get to the boss' office door.
 
@@ -127,7 +125,9 @@ Complete these steps before the workday timer expires to earn Don's promotion.
 
 ## Cheat Codes
 
-?????
+| Cheat | Control |
+| --- | --- |
+| Pauses Game | P|
 
 
 ## Story
@@ -164,10 +164,12 @@ License:
 
 Oozma Kappa
 
-Maddy Mitchell — Producer
-Johnny Santos — Designer
-Aiden Hermanowicz — Artist
-Tristan Ford — Programmer
+| Name | Role |
+| --- | --- |
+| Maddy Mitchell | Producer |
+| Johnny Santos | Designer |
+| Aiden Hermanowicz | Artist |
+| Tristan Ford | Programmer |
 
 
 ## Game Information
