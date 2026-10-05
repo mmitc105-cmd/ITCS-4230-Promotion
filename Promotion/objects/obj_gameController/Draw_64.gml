@@ -25,3 +25,9 @@ draw_rectangle_color(x1, y1, x2, y2, c_yellow, c_yellow, c_yellow, c_yellow, tru
 
 
 }
+
+if(timer_active){
+	day_text = "DAY: " + string(day_count);
+	draw_set_colour(c_black);
+	draw_text(display_get_gui_width() -200, display_get_height()-200, day_text);
+}

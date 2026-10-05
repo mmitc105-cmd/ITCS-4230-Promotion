@@ -1,11 +1,9 @@
 {
   "$GMObject":"",
-  "%Name":"obj_HUD",
-  "eventList":[
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":64,"eventType":8,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-  ],
+  "%Name":"obj_exitDoor",
+  "eventList":[],
   "managed":true,
-  "name":"obj_HUD",
+  "name":"obj_exitDoor",
   "overriddenProperties":[],
   "parent":{
     "name":"Objects",
@@ -28,10 +26,10 @@
   "properties":[],
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
-  "solid":false,
+  "solid":true,
   "spriteId":{
-    "name":"spr_HUD",
-    "path":"sprites/spr_HUD/spr_HUD.yy",
+    "name":"spr_exitDoor",
+    "path":"sprites/spr_exitDoor/spr_exitDoor.yy",
   },
   "spriteMaskId":null,
   "visible":true,

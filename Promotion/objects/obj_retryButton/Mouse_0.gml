@@ -1,6 +1,7 @@
 global.puzzle_states.pipe_game = noone;
 global.puzzle_states.maze_game = false;
 global.puzzle_states.light_game = false;
+obj_gameController.day_count += 1;
 
 if (instance_exists(obj_gameController)){
 	

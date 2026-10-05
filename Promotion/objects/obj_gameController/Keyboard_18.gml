@@ -15,3 +15,7 @@ if (keyboard_check_pressed(ord("L"))){ //Sends to lose screen
 if (keyboard_check_pressed(ord("O"))) { //Sets time to 1 second to test win/lose
 	current_time_remaining = 1;
 }
+
+if (keyboard_check_pressed(ord("N"))){ //Cycle through rooms
+	room_goto_next();
+}

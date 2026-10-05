@@ -43,7 +43,7 @@ y = clamp(y, half_height, room_height - half_height);
 
 //Collision
 
-//Horizontal
+//Horizontal desk
 if(place_meeting(x + h_speed, y, obj_solid)){
 	while(!place_meeting(x + sign(h_speed), y, obj_solid)){
 		x += sign(h_speed)
@@ -51,9 +51,8 @@ if(place_meeting(x + h_speed, y, obj_solid)){
 	h_speed = 0;
 }
 
-x += h_speed;
 
-//Vertical
+//Vertical desk
 if(place_meeting(x, y + v_speed, obj_solid)){
 	while(!place_meeting(x, y + sign(v_speed), obj_solid)){
 		y += sign(v_speed);
@@ -61,12 +60,33 @@ if(place_meeting(x, y + v_speed, obj_solid)){
 	v_speed = 0;
 }
 
+//Horizontal door
+if(place_meeting(x + h_speed, y, obj_exitDoor)){
+	while(!place_meeting(x + sign(h_speed), y, obj_exitDoor)){
+		x += sign(h_speed)
+	}
+	h_speed = 0;
+}
+
+
+
+//Vertical door
+if(place_meeting(x, y + v_speed, obj_exitDoor)){
+	while(!place_meeting(x, y + sign(v_speed), obj_exitDoor)){
+		y += sign(v_speed);
+	}
+	v_speed = 0;
+}
+
+x += h_speed;
 y += v_speed;
+
 
 //Interacting with the desks/puzzles
 if(keyboard_check_pressed(ord("E"))){
 	interact_dist = 4;
 	target_solid = noone;
+	
 	
 	if(place_meeting(x + h_input * interact_dist, y, obj_solid)){
 		target_solid = instance_place(x + h_input * interact_dist, y, obj_solid);
@@ -97,4 +117,45 @@ if(keyboard_check_pressed(ord("E"))){
 		
 			
 	}
+	
+	
+}
+
+//Exit door
+
+if (keyboard_check_pressed(ord("E"))){
+
+	check_dist = 4;
+	door_target = noone;
+	
+	
+	if (place_meeting(x,y -check_dist, obj_exitDoor)){
+		door_target = instance_place(x, y-check_dist, obj_exitDoor);
+	} else {
+		door_target = instance_nearest(x, y, obj_exitDoor);
+		if (distance_to_object(door_target) > check_dist){
+			door_target = noone;
+		}
+	}
+	
+	if (door_target != noone and !instance_exists(obj_UIParent)){
+		
+		if (global.puzzle_states.pipe_game == true and
+			global.puzzle_states.maze_game == true and
+			global.puzzle_states.light_game == true){
+		
+			if (instance_exists(obj_gameController)){
+				obj_gameController.timer_active = false;
+			}
+		
+			if (room_exists(Win)){
+				room_goto(Win);
+			} else {
+				show_debug_message("Room does not exist");
+			}
+		} else {
+			show_debug_message("Objectives not complete!")
+		}
+	}
+	
 }

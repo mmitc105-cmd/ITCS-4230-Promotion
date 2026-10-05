@@ -34,6 +34,7 @@ if(!is_solved){
 			pipe_win_con = check_pipe_connection(puzzle_grid);
 			if (pipe_win_con){
 				is_solved = true;
+				global.puzzle_states.pipe_game = true;
 				audio_play_sound(snd_pipeComplete, 1, false);
 				global.pipe_maze_solved = true; // Mark as completely solved globally
 				show_debug_message("You did it! Pipes are connected!");
