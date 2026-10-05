@@ -1,5 +1,3 @@
-persistent = true;
-
 global.puzzle_states = {
 	
 	pipe_game : noone,

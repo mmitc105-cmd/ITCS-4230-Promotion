@@ -1,13 +1,13 @@
 {
   "$GMObject":"",
-  "%Name":"obj_exitButton",
+  "%Name":"obj_ctrlButton",
   "eventList":[
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":6,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":7,"eventType":6,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"obj_exitButton",
+  "name":"obj_ctrlButton",
   "overriddenProperties":[],
   "parent":{
     "name":"Main Menu",
@@ -32,8 +32,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_exitButton",
-    "path":"sprites/spr_exitButton/spr_exitButton.yy",
+    "name":"spr_ctrlButton",
+    "path":"sprites/spr_ctrlButton/spr_ctrlButton.yy",
   },
   "spriteMaskId":null,
   "visible":true,
