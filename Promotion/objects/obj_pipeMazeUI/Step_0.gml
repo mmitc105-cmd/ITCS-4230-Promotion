@@ -16,6 +16,7 @@ if(!is_solved){
 			cell = puzzle_grid[clicked_row][clicked_col];
 			cell.angle -= 90;
 			if(cell.angle < 0) cell.angle += 360;
+			audio_play_sound(snd_pipeRotate, 1, false);
 			
 			// 1. Take a snapshot of the grid angles right after the click
 			current_angles = [];
@@ -33,7 +34,7 @@ if(!is_solved){
 			pipe_win_con = check_pipe_connection(puzzle_grid);
 			if (pipe_win_con){
 				is_solved = true;
-				//TODO: Add flushing sound
+				audio_play_sound(snd_pipeComplete, 1, false);
 				global.pipe_maze_solved = true; // Mark as completely solved globally
 				show_debug_message("You did it! Pipes are connected!");
 			} else {

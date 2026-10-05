@@ -18,4 +18,7 @@ if (room_exists(Room1)){
 } else {
 	//Fail safe to check if room loads
 	show_debug_message("ROOM DOES NOT EXIST");
+	image_index = 0; //Returns button to default state
 }
+
+audio_play_sound(snd_menuClicked, 1, false);

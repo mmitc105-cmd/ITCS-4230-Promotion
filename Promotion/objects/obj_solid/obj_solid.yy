@@ -1,7 +1,9 @@
 {
   "$GMObject":"",
   "%Name":"obj_solid",
-  "eventList":[],
+  "eventList":[
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+  ],
   "managed":true,
   "name":"obj_solid",
   "overriddenProperties":[],
@@ -26,6 +28,7 @@
   "properties":[
     {"$GMObjectProperty":"v2","%Name":"puzzle_ID","filters":[],"listItems":[],"multiselect":false,"name":"puzzle_ID","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resource":{"name":"obj_UIParent","path":"objects/obj_UIParent/obj_UIParent.yy",},"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"obj_UIParent","varType":5,},
     {"$GMObjectProperty":"v2","%Name":"save_key","filters":[],"listItems":[],"multiselect":false,"name":"save_key","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"pipe_game","varType":2,},
+    {"$GMObjectProperty":"v2","%Name":"sprite_ID","filters":[],"listItems":[],"multiselect":false,"name":"sprite_ID","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resource":{"name":"Sprite3","path":"sprites/Sprite3/Sprite3.yy",},"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"Sprite3","varType":5,},
   ],
   "resourceType":"GMObject",
   "resourceVersion":"2.0",

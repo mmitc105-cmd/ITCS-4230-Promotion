@@ -25,8 +25,8 @@
   "nineSlice":null,
   "origin":4,
   "parent":{
-    "name":"Sprites",
-    "path":"folders/Sprites.yy",
+    "name":"Pipe Maze",
+    "path":"folders/Sprites/Pipe Maze.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

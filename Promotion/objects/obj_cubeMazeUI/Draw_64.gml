@@ -39,7 +39,7 @@ if (!is_solved) {
 
 // Exit prompt text at the bottom
 draw_set_color(c_gray);
-draw_text(ui_x, ui_y + 100, "Press [ESC] to return to the world");
+draw_text(ui_x, ui_y + 100, "Press [ESC] to return to the factory");
 
 // Reset alignment safety switch so subsequent UI layers render cleanly
 draw_set_halign(fa_left);

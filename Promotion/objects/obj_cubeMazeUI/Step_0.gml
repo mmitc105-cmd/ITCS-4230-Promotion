@@ -35,11 +35,13 @@ if (!is_solved){
 		cube_y = ui_y;
 		show_debug_message("-----------------BUZZ COLLISION--------------");
 		//TODO: Add buzzer noise
+		audio_play_sound(snd_wallZap, 1, false);
 	}
 	
 	//Win con
 	if (cube_x >= track_end_x){
 		is_solved = true;
+		audio_play_sound(snd_mazeComplete, 1, false);
 		
 		// Update the global state with our dynamically inherited puzzle ID
 		global.puzzle_states[$ my_puzzle_ID] = true;

@@ -37,13 +37,14 @@ if (!is_solved && mouse_check_button_pressed(mb_left)){
 				for (c = 0; c < grid_size; c++){
 					if (lights_grid[r][c] == true) {
 						all_off = false;
-						//TODO: Add flickering sound
+						audio_play_sound(snd_lightsOutClick, 1, false);
 					}
 				}
 			}
 		
 			if (all_off) {
 				is_solved = true;
+				audio_play_sound(snd_lightsOutComplete, 1, false);
 				
 				// Update our central state tracker with our inherited minigame key
 				global.puzzle_states[$ my_puzzle_ID] = true; 

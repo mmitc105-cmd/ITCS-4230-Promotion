@@ -22,7 +22,7 @@ draw_set_color(c_black);
 draw_set_halign(fa_center);
 draw_text(ui_x-750, ui_y - 100, "PIPE MINIGAME");
 draw_text(ui_x-750, ui_y, "Connect the flow...");
-draw_text(ui_x-750, ui_y + 100, "Press 'Escape' or 'ESC' to Exit");
+draw_text(ui_x-750, ui_y + 100, "Press [ESC] to Exit");
 draw_set_halign(fa_left);
 		
 	//Lock the UI when completed.

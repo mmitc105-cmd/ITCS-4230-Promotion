@@ -11,8 +11,8 @@
   "name":"obj_pipeMazeUI",
   "overriddenProperties":[],
   "parent":{
-    "name":"Objects",
-    "path":"folders/Objects.yy",
+    "name":"Pipe Maze",
+    "path":"folders/Objects/Minigame UI/Pipe Maze.yy",
   },
   "parentObjectId":{
     "name":"obj_UIParent",

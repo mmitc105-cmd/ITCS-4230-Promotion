@@ -11,8 +11,8 @@
   "name":"obj_cubeMazeUI",
   "overriddenProperties":[],
   "parent":{
-    "name":"Objects",
-    "path":"folders/Objects.yy",
+    "name":"Minigame UI",
+    "path":"folders/Objects/Minigame UI.yy",
   },
   "parentObjectId":{
     "name":"obj_UIParent",
