@@ -68,8 +68,6 @@ if(place_meeting(x + h_speed, y, obj_exitDoor)){
 	h_speed = 0;
 }
 
-
-
 //Vertical door
 if(place_meeting(x, y + v_speed, obj_exitDoor)){
 	while(!place_meeting(x, y + sign(v_speed), obj_exitDoor)){

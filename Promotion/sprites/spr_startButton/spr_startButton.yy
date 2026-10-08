@@ -26,8 +26,8 @@
   "nineSlice":null,
   "origin":4,
   "parent":{
-    "name":"Main Menu",
-    "path":"folders/Sprites/Main Menu.yy",
+    "name":"Buttons_and_Menu",
+    "path":"folders/Sprites/Buttons_and_Menu.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

@@ -23,7 +23,7 @@
   ],
   "name":"Sprite3",
   "nineSlice":null,
-  "origin":1,
+  "origin":4,
   "parent":{
     "name":"Minigame Tables",
     "path":"folders/Sprites/Minigame Tables.yy",
@@ -76,7 +76,7 @@
     "visibleRange":null,
     "volume":1.0,
     "xorigin":150,
-    "yorigin":0,
+    "yorigin":75,
   },
   "swatchColours":null,
   "swfPrecision":0.5,

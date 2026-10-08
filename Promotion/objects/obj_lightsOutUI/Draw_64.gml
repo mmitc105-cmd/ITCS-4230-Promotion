@@ -1,6 +1,8 @@
 // Inherit the parent event
 event_inherited();
 
+draw_sprite(spr_lightsOutBG, 0, ui_x, ui_y);
+
 for (r=0; r < grid_size; r++) {
 	for (c=0; c < grid_size; c++) {
 		
@@ -20,8 +22,10 @@ for (r=0; r < grid_size; r++) {
 		
 		draw_set_colour(c_black);
 		draw_rectangle(bx1, by1, bx2, by2, true);
+		
 	}
 }
+
 
 draw_set_halign(fa_center);
 draw_set_colour(c_white);

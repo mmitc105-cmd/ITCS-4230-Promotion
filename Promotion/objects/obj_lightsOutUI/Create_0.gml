@@ -4,13 +4,13 @@ event_inherited();
 //Initialized variables
 is_solved = false;
 grid_size = 3;
-cell_size = 64;
+cell_size = 256;
 
 //Dimensions
 ui_x = display_get_gui_width()/2;
 ui_y = display_get_gui_height()/2;
 start_x = ui_x - ((grid_size*cell_size)/2);
-start_y = ui_y - 100;
+start_y = ui_y - 350;
 
 //Creating Grid
 lights_grid = array_create(grid_size);
