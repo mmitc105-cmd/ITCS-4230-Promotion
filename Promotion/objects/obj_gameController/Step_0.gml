@@ -9,15 +9,28 @@ if (timer_active) {
 		current_time_remaining = 0;
 		timer_active = false;
 		
+		sprite_index = spr_timer;
+		image_index = 0;
 		
+		
+		//AUDIO HERE
+		
+		alarm[0] = 2 *time_per_second;
+			
 		global.puzzle_states.pipe_game = noone;
         global.puzzle_states.maze_game = false;
         global.puzzle_states.light_game = false;
 	
-		if (room_exists(Lose)){
-			room_goto(Lose);
-		} else {
-			show_debug_message("Room does not exist");
-		}
 	}
+}
+
+if (alarm[0] > 0) {
+	
+    anim_speed = 0.2; 
+    
+    image_index += anim_speed;
+    
+    if (image_index >= sprite_get_number(sprite_index)) {
+        image_index = 0; 
+    }
 }

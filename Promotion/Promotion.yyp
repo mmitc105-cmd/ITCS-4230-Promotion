@@ -63,6 +63,7 @@
     {"id":{"name":"obj_startButton","path":"objects/obj_startButton/obj_startButton.yy",},},
     {"id":{"name":"obj_UIParent","path":"objects/obj_UIParent/obj_UIParent.yy",},},
     {"id":{"name":"obj_wakeUpButton","path":"objects/obj_wakeUpButton/obj_wakeUpButton.yy",},},
+    {"id":{"name":"Controls","path":"rooms/Controls/Controls.yy",},},
     {"id":{"name":"Credits","path":"rooms/Credits/Credits.yy",},},
     {"id":{"name":"Lose","path":"rooms/Lose/Lose.yy",},},
     {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
@@ -77,6 +78,7 @@
     {"id":{"name":"snd_pipeRotate","path":"sounds/snd_pipeRotate/snd_pipeRotate.yy",},},
     {"id":{"name":"snd_wallZap","path":"sounds/snd_wallZap/snd_wallZap.yy",},},
     {"id":{"name":"spr_background","path":"sprites/spr_background/spr_background.yy",},},
+    {"id":{"name":"spr_controlBG","path":"sprites/spr_controlBG/spr_controlBG.yy",},},
     {"id":{"name":"spr_credits","path":"sprites/spr_credits/spr_credits.yy",},},
     {"id":{"name":"spr_creditsButton","path":"sprites/spr_creditsButton/spr_creditsButton.yy",},},
     {"id":{"name":"spr_ctrlButton","path":"sprites/spr_ctrlButton/spr_ctrlButton.yy",},},
@@ -115,6 +117,7 @@
     {"roomId":{"name":"Lose","path":"rooms/Lose/Lose.yy",},},
     {"roomId":{"name":"Win","path":"rooms/Win/Win.yy",},},
     {"roomId":{"name":"Credits","path":"rooms/Credits/Credits.yy",},},
+    {"roomId":{"name":"Controls","path":"rooms/Controls/Controls.yy",},},
   ],
   "templateType":"game",
   "TextureGroups":[

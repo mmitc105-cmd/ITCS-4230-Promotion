@@ -14,3 +14,5 @@ time_per_second = game_get_speed(gamespeed_fps);
 timer_active = false;
 
 day_count = 1;
+
+image_speed = 0;

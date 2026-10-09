@@ -1,4 +1,4 @@
-if (timer_active) {
+if (timer_active or alarm[0] > 0) {
 
 time_percentage = (current_time_remaining / max_time) * 100;
 
@@ -11,7 +11,7 @@ x2 = gui_width - 115;
 y1 = 150;                         
 y2 = y1 + bar_height;            
 
-draw_sprite(spr_timer, 0, x1 -75, y1 - 150);
+draw_sprite(spr_timer, image_index, x1 + 75, y1 + 10);
 
 draw_rectangle_color(x1, y1, x2, y2, c_dkgray, c_dkgray, c_dkgray, c_dkgray, false);
 
