@@ -28,6 +28,7 @@
     {"name":"obj_creditsButton","order":4,"path":"objects/obj_creditsButton/obj_creditsButton.yy",},
     {"name":"obj_ctrlButton","order":2,"path":"objects/obj_ctrlButton/obj_ctrlButton.yy",},
     {"name":"obj_exitDoor","order":17,"path":"objects/obj_exitDoor/obj_exitDoor.yy",},
+    {"name":"obj_fullscreen","order":18,"path":"objects/obj_fullscreen/obj_fullscreen.yy",},
     {"name":"obj_gameController","order":10,"path":"objects/obj_gameController/obj_gameController.yy",},
     {"name":"obj_HUD","order":11,"path":"objects/obj_HUD/obj_HUD.yy",},
     {"name":"obj_lightsOutUI","order":1,"path":"objects/obj_lightsOutUI/obj_lightsOutUI.yy",},

@@ -48,6 +48,7 @@
     {"id":{"name":"obj_cubeMazeUI","path":"objects/obj_cubeMazeUI/obj_cubeMazeUI.yy",},},
     {"id":{"name":"obj_exitButton","path":"objects/obj_exitButton/obj_exitButton.yy",},},
     {"id":{"name":"obj_exitDoor","path":"objects/obj_exitDoor/obj_exitDoor.yy",},},
+    {"id":{"name":"obj_fullscreen","path":"objects/obj_fullscreen/obj_fullscreen.yy",},},
     {"id":{"name":"obj_gameController","path":"objects/obj_gameController/obj_gameController.yy",},},
     {"id":{"name":"obj_HUD","path":"objects/obj_HUD/obj_HUD.yy",},},
     {"id":{"name":"obj_lightsOutUI","path":"objects/obj_lightsOutUI/obj_lightsOutUI.yy",},},
