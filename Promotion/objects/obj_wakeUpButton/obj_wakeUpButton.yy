@@ -1,19 +1,21 @@
 {
   "$GMObject":"",
-  "%Name":"obj_retryButton",
+  "%Name":"obj_wakeUpButton",
   "eventList":[
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":6,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":7,"eventType":6,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":6,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"obj_retryButton",
+  "name":"obj_wakeUpButton",
   "overriddenProperties":[],
   "parent":{
     "name":"Buttons_and_Menu",
     "path":"folders/Objects/Buttons_and_Menu.yy",
   },
-  "parentObjectId":null,
+  "parentObjectId":{
+    "name":"obj_retryButton",
+    "path":"objects/obj_retryButton/obj_retryButton.yy",
+  },
   "persistent":false,
   "physicsAngularDamping":0.1,
   "physicsDensity":0.5,
@@ -32,8 +34,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_retryButton",
-    "path":"sprites/spr_retryButton/spr_retryButton.yy",
+    "name":"spr_wakeUpButton",
+    "path":"sprites/spr_wakeUpButton/spr_wakeUpButton.yy",
   },
   "spriteMaskId":null,
   "visible":true,
