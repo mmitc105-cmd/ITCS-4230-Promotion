@@ -23,6 +23,7 @@ If time runs out before all three tasks are completed, the day resets. Use what 
 | Movement | WASD or Arrow Keys |
 | Interact | E |
 | Puzzle Controls | Mouse Click or Arrow Keys |
+| Fullscreen | F |
 
 
 ### HOW TO PLAY
@@ -127,7 +128,10 @@ Complete these steps before the workday timer expires to earn Don's promotion.
 
 | Cheat | Control |
 | --- | --- |
-| Pauses Game | P|
+| Reset Timer | ALT + T |
+| Auto Lose | ALT + L |
+| Set Timer to 1 Second | ALT + O |
+| Iterate Throughout Rooms | ALT + N |
 
 
 ## Story
