@@ -3,6 +3,7 @@ if (timer_active) {
 	if (current_time_remaining > 0) {
 		
 		current_time_remaining -= (1/time_per_second);
+
 		
 	} else {
 	
@@ -14,6 +15,8 @@ if (timer_active) {
 		
 		
 		//AUDIO HERE
+		audio_play_sound(snd_steamWhistle, 1, false);
+		
 		
 		alarm[0] = 2 *time_per_second;
 			

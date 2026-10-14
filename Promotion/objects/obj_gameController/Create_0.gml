@@ -16,3 +16,6 @@ timer_active = false;
 day_count = 1;
 
 image_speed = 0;
+
+
+	audio_play_sound(snd_BGMusic, 1, true);
