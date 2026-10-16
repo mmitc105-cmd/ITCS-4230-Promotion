@@ -149,19 +149,32 @@ When Don fails, he wakes up and realizes the disastrous workday was a nightmare.
 Each loop gives the player another opportunity to learn the factory, master its puzzles, and help Don finally complete his seemingly impossible workday.
 
 
+## How The Project Theme Was Implemented
+
+Every "nightmare" that Don has is considered another loop in the time loop. The player has the benefit of learning more every loop and getting more efficient at solving the puzzles. So, every loop, the player should be getting closer and closer to solving all 3 puzzles and earning their promotion, thus ending the time loop.
+
+
 ## Licensing Information
 
-Promotion Pending © 2026 Oozma Kappa.
+Promotion Pending 2026 Oozma Kappa
 
+## ARTWORK
 All original artwork and concept art was created by Aiden Hermanowicz.
 
+## SOUNDS & MUSIC
+### Asset: Steam Whistle/Alarm Clock
 
-For any music, sound effects, fonts, sprites, code, or other assets not created by the development team, include:
+Creator: cryptidcat
+Source: https://freesound.org/people/cryptidcat/sounds/743963/
+License: Creative Commons 0
 
-Asset:
-Creator:
-Source:
-License:
+Creator: Caboose_canine
+Source: https://pixabay.com/sound-effects/film-special-effects-steam-locomotive-fouled-5-chime-375193/
+License: Creative Commons 0
+
+### Asset: Background Music
+
+Creator: Johnny Santos
 
 
 ## Development Team
@@ -184,6 +197,3 @@ Number of Players: 1
 Perspective: Top-Down
 Art Style: Pixel Art
 Setting: Factory
-
-
-Oozma Kappa — 2026
