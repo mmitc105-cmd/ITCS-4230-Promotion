@@ -149,7 +149,7 @@ When Don fails, he wakes up and realizes the disastrous workday was a nightmare.
 Each loop gives the player another opportunity to learn the factory, master its puzzles, and help Don finally complete his seemingly impossible workday.
 
 
-## How The Project Theme Was Implemented
+### PROJECT THEME
 
 Every "nightmare" that Don has is considered another loop in the time loop. The player has the benefit of learning more every loop and getting more efficient at solving the puzzles. So, every loop, the player should be getting closer and closer to solving all 3 puzzles and earning their promotion, thus ending the time loop.
 
@@ -162,7 +162,7 @@ Promotion Pending 2026 Oozma Kappa
 All original artwork and concept art was created by Aiden Hermanowicz.
 
 ## SOUNDS & MUSIC
-### Asset: Steam Whistle/Alarm Clock
+#### Asset: Steam Whistle/Alarm Clock
 
 Creator: cryptidcat  
 Source: https://freesound.org/people/cryptidcat/sounds/743963/  
@@ -172,20 +172,43 @@ Creator: Caboose_canine
 Source: https://pixabay.com/sound-effects/film-special-effects-steam-locomotive-fouled-5-chime-375193/  
 License: Creative Commons 0 
 
-### Asset: Pipes Turning
+#### Asset: Pipes Turning
 
 Creator: sans.   
 Source: https://freesound.org/s/535748/  
 License: Creative Commons 0  
 
-### Asset: Electric Walls Zap
+#### Asset: Electric Walls Zap
 
 Creator: JoelAudio     
 Source: https://pixabay.com/sound-effects/film-special-effects-electric-zap-001-6374/   
 License: Creative Commons 0  
 
+#### Asset: Pipe Maze Completed
 
-### Asset: Background Music
+Creator: lorenzgillner     
+Source: https://pixabay.com/sound-effects/household-toilet-flushing-7059/     
+License: Creative Commons 0  
+
+#### Asset: Electric Walls Completed
+
+Creator: Mixkit     
+Source: https://mixkit.co/free-sound-effects/discover/power/     
+License: Creative Commons 0  
+
+#### Asset: Clock Ticking
+
+Creator: colorsCrimsonTears     
+Source: https://freesound.org/s/545698/    
+License: Creative Commons 0  
+
+#### Asset: Menu Button Click
+
+Creator: pooya.work     
+Source: https://pixabay.com/sound-effects/film-special-effects-old-radio-button-click-97549/    
+License: Creative Commons 0  
+
+#### Asset: Background Music
 All background music was created by Johnny Santos.
 
 
