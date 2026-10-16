@@ -164,17 +164,29 @@ All original artwork and concept art was created by Aiden Hermanowicz.
 ## SOUNDS & MUSIC
 ### Asset: Steam Whistle/Alarm Clock
 
-Creator: cryptidcat
-Source: https://freesound.org/people/cryptidcat/sounds/743963/
+Creator: cryptidcat  
+Source: https://freesound.org/people/cryptidcat/sounds/743963/  
 License: Creative Commons 0
 
-Creator: Caboose_canine
-Source: https://pixabay.com/sound-effects/film-special-effects-steam-locomotive-fouled-5-chime-375193/
-License: Creative Commons 0
+Creator: Caboose_canine  
+Source: https://pixabay.com/sound-effects/film-special-effects-steam-locomotive-fouled-5-chime-375193/  
+License: Creative Commons 0 
+
+### Asset: Pipes Turning
+
+Creator: sans.   
+Source: https://freesound.org/s/535748/  
+License: Creative Commons 0  
+
+### Asset: Electric Walls Zap
+
+Creator: JoelAudio     
+Source: https://pixabay.com/sound-effects/film-special-effects-electric-zap-001-6374/   
+License: Creative Commons 0  
+
 
 ### Asset: Background Music
-
-Creator: Johnny Santos
+All background music was created by Johnny Santos.
 
 
 ## Development Team
